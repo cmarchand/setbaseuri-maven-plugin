@@ -23,5 +23,5 @@ Sample :
     </build>
 ```
 
-Then, in a filtered resource, you can use `${poroject.baseUri}`, it will be substitued with
+Then, in a filtered resource, you can use `${project.baseUri}`, it will be substitued with
 a URI form of project directory : `file:/Users/cmarchand/devel/project` for me.
