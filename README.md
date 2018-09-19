@@ -5,6 +5,7 @@ This property **should** be defined by lmaven, but isn't. So let's add a plugin 
 
 Sample :
 
+```xml
     <build>
       <plugins>
         <plugin>
@@ -20,6 +21,7 @@ Sample :
         </plugin>
       </plugins>
     </build>
+```
 
 Then, in a filtered resource, you can use `${poroject.baseUri}`, it will be substitued with
 a URI form of project directory : `file:/Users/cmarchand/devel/project` for me.
